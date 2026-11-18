@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>느티나무 알아보기</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f3e9;
+  color: #304333;
+  line-height: 1.8;
+}
+
+header {
+  background: #294b38;
+  color: white;
+  text-align: center;
+  padding: 55px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #e0eadb;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 25px 20px;
+}
+
+.intro {
+  background: #e7ecdf;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.topic {
+  background: white;
+  margin: 15px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px #00000010;
+}
+
+.topic button {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  background: white;
+  color: #294b38;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+}
+
+.topic button:hover {
+  background: #edf1e9;
+}
+
+.content {
+  display: none;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.content h3 {
+  color: #426b4d;
+  margin-top: 12px;
+}
+
+.content p {
+  margin-bottom: 18px;
+}
+
+.content a {
+  color: #426b4d;
+}
+
+footer {
+  background: #294b38;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>우리 주변의 나무</h1>
+  <h2>느티나무</h2>
+  <p>느티나무의 특징과 다양한 활용 방법을 알아보자.</p>
+</header>
+
+<main>
+
+<div class="intro">
+  <h3>느티나무란?</h3>
+  <p>
+    우리 주변에서 흔히 볼 수 있는 느티나무.
+    나무의 특징부터 낙엽의 새로운 활용 방법까지 알아보자.
+  </p>
+</div>
+
+<div class="topic">
+<button onclick="toggleContent(0)">
+① 느티나무 소개 ▼
+</button>
+
+<div class="content">
+<h3>느티나무는 어떤 나무일까?</h3>
+<p>
+느티나무는 우리나라를 비롯한 동아시아에서 자라는
+낙엽활엽 큰키나무이다. 봄과 여름에는 초록 잎이 무성하고,
+가을에는 잎이 노랗거나 붉게 물든 뒤 떨어진다.
+공원이나 마을 어귀에서 그늘을 만드는 나무로 많이 볼 수 있다.
+</p>
+
+<h3>느티나무의 기본 정보</h3>
+<p>
+<strong>수명</strong><br>
+환경에 따라 수백 년 이상 생존할 수 있다.
+</p>
+<p>
+<strong>식물의 종류</strong><br>
+여러해살이 식물이다.
+</p>
+<p>
+<strong>분류</strong><br>
+낙엽활엽수이다.
+</p>
+<p>
+<strong>잎의 특징</strong><br>
+잎 가장자리가 톱니 모양이다.
+</p>
+</div>
+</div>
+
+<div class="topic">
+<button onclick="toggleContent(1)">
+② 느티나무의 특징과 활용 ▼
+</button>
+
+<div class="content">
+<h3>느티나무의 쓰임</h3>
+<p>
+느티나무는 넓은 그늘을 만들어 정자나 공원에 많이 심는다.
+단단하고 무늬가 아름다운 목재는 가구와 건축재,
+생활용품 등에 쓰인다.
+</p>
+
+<h3>낙엽의 재활용</h3>
+<p>
+가을에 떨어지는 낙엽도 모아 재활용하면
+종이나 종이봉투, 상자 포장재 등의 원료로 활용할 수 있다.
+버려지는 낙엽에 새로운 가치를 더할 수 있다는 장점이 있다.
+</p>
+
+<h3>종이 가격 참고</h3>
+<p>
+일반 수제 재생종이 판매 사례는 장당 약 1.7~2캐나다달러이다.
+한화로 약 1,600~1,900원 정도이다.
+이는 낙엽 100% 종이의 가격이 아닌 일반 재생 수제지의 참고 가격이다.
+</p>
+</div>
+</div>
+
+<div class="topic">
+<button onclick="toggleContent(2)">
+③ 낙엽으로 종이 만들기 ▼
+</button>
+
+<div class="content">
+<h3>종이 제작 과정</h3>
+
+<p>
+<strong>1. 잎 모으기</strong><br>
+깨끗한 느티나무 낙엽을 모아 이물질을 제거한다.
+</p>
+
+<p>
+<strong>2. 잎 불리기</strong><br>
+잎을 물에 불리고 잘게 나누어 섬유가 풀리도록 한다.
+</p>
+
+<p>
+<strong>3. 종이 형태 만들기</strong><br>
+물에 풀린 잎 반죽을 망 위에 얇게 펼쳐 물기를 뺀다.
+</p>
+
+<p>
+<strong>4. 눌러 말리기</strong><br>
+천으로 물기를 제거하고 평평하게 눌러 말린다.
+</p>
+
+<h3>해외 재활용 사례</h3>
+<p>
+우크라이나에서 시작한 Releaf는 도시에서 모은 낙엽을
+섬유 원료로 가공해 종이봉투와 포장재를 만든다.
+네덜란드의 ESKA도 Releaf와 협력하여 낙엽을 활용한
+포장재 ESKA LEAF를 소개했다.
+</p>
+
+<p>
+이처럼 낙엽은 단순히 버려지는 것이 아니라
+새로운 제품을 만드는 자원으로 활용될 수 있다.
+</p>
+
+<a href="https://eska.com/eskaleaf/" target="_blank">
+ESKA LEAF 공식 자료 보기
+</a>
+</div>
+</div>
+
+<div class="topic">
+<button onclick="toggleContent(3)">
+④ ESG 경영과 심리학 ▼
+</button>
+
+<div class="content">
+<h3>경영적 관점</h3>
+<p>
+낙엽을 재활용하는 것은 ESG 경영 중 환경(E) 분야와
+연결된다. 버려지는 자원을 활용하면 폐기물을 줄이고
+새로운 제품을 만들어 상품의 가치를 높일 수 있다.
+또한 친환경적인 기업 이미지를 형성하는 데 도움이 된다.
+</p>
+
+<h3>심리적 관점</h3>
+<p>
+낙엽으로 만든 종이는 일반 종이와 다른 자연스러운 색과
+질감을 가지고 있다. 이러한 특징은 사람들의 호기심을
+자극하고 직접 만져보고 싶다는 생각을 불러일으킬 수 있다.
+또한 환경 보호에 참여한다는 느낌은 제품에 대한
+긍정적인 인식으로 이어질 수 있다.
+</p>
+
+<h3>활동의 의미</h3>
+<p>
+이번 활동을 통해 버려지는 낙엽도 새로운 자원이 될 수
+있다는 점을 알 수 있다. 또한 환경 보호뿐 아니라
+기업의 상품 가치와 소비자의 심리까지 연결하여
+생각해 볼 수 있다.
+</p>
+</div>
+</div>
+
+<div style="margin-top:35px;">
+<h3>참고 자료</h3>
+<p>
+<a href="https://namu.wiki/w/느티나무" target="_blank">
+느티나무 관련 자료
+</a>
+<br>
+<a href="https://eska.com/eskaleaf/" target="_blank">
+ESKA LEAF
+</a>
+</p>
+</div>
+
+</main>
+
+<footer>
+느티나무 알아보기<br>
+버려지는 낙엽에서 새로운 가치를 찾다.
+</footer>
+
+<script>
+function toggleContent(index) {
+  const contents = document.querySelectorAll(".content");
+  const selected = contents[index];
+
+  const isOpen = selected.style.display === "block";
+
+  contents.forEach(content => {
+    content.style.display = "none";
+  });
+
+  if (!isOpen) {
+    selected.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
